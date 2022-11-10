@@ -1,0 +1,1 @@
+{"version":3,"file":"bundle.js","mappings":"mBAEAA,QAAQC,IAAI,MAKZD,QAAQC,IAAIC,E","sources":["webpack://fastcampus/./src/js/index.js"],"sourcesContent":["import \"../css/style.css\";\r\n\r\nconsole.log(\"hi\");\r\n\r\nlet a= 1;\r\nlet b = 2;\r\n\r\nconsole.log(a + b);"],"names":["console","log","a"],"sourceRoot":""}

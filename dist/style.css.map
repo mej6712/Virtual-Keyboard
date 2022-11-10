@@ -1,0 +1,1 @@
+{"version":3,"file":"style.css","mappings":"AAAA,EAGI,UAAW,CADX,gBAAiB,CADjB,iBAGJ,CAKA,IAEI,YAAa,CADb,WAEJ","sources":["webpack://fastcampus/./src/css/style.css"],"sourcesContent":["p{\r\n    text-align: center;\r\n    line-height: 20px;\r\n    color: 30px;\r\n}\r\n\r\n\r\n\r\n\r\ndiv{\r\n    width: 100px;\r\n    height: 200px;\r\n}"],"names":[],"sourceRoot":""}
