@@ -2,7 +2,7 @@ import "../css/style.css";
 
 console.log("hi");
 
-let a = 10;
+let a = 12;
 
 let b = 6;
 
