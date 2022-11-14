@@ -1,9 +1,4 @@
 import "../css/style.css";
+import { Keyboard } from "./keyboard";
 
-console.log("hi");
-
-let a = 12;
-
-let b = 6;
-
-console.log(a + b);
+const keyboard = new Keyboard();
