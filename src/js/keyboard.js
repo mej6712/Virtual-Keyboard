@@ -1,5 +1,7 @@
 export class Keyboard {
   #switchEl;
+  #fontSelectEl;
+
   constructor() {
     this.#assignElement();
     this.#addEvent();
@@ -7,11 +9,16 @@ export class Keyboard {
 
   #assignElement() {
     this.#switchEl = document.getElementById("switch");
+    this.#fontSelectEl = document.getElementById("font");
   }
 
   #addEvent() {
     this.#switchEl.addEventListener("change", (e) => {
       document.documentElement.setAttribute("theme", e.target.checked ? "dark" : "");
+    });
+
+    this.#fontSelectEl.addEventListener("change", (e) => {
+      document.body.style.fontFamily = e.target.value;
     });
   }
 }
