@@ -11,7 +11,7 @@
         "sourceType": "module"
     },
     "rules": {
-        // "import/prefer-default-exports" : "off",
-        // "import/extensions" : ["off"],
+        "import/prefer-default-exports" : "off",
+        "import/extensions" : ["off"],
     }
 }
